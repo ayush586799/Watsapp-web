@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Oswald:wght@400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.watsapp-web{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+}
+
+.container{
+    margin: 0px auto;
+    height: 130vh;
+    width: 72%;
+}
+
+.nav-bar{
+    height: 30vh;
+    width: 100%;
+    background-color: #00a884;
+}
+
+
+/* Watsapp web section */
+
+.container .watsappweb-section nav{
+    height: 13vh;
+    width: 100%;
+    background-color: #00a884;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+}
+.container .watsappweb-section nav img{
+    height: 35px;
+    margin-top: 25px;
+}
+.container .watsappweb-section nav p{
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+/* barcode section */
+
+.container .barcode-section{
+    height: 60vh;
+    width: 83%;
+    background-color: white;
+    margin-left: 90px;
+    padding: 60px 50px 50px 50px;
+}
+
+.watsapp-web .nav-bar .container .section{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+.watsapp-web .container .barcode-section .information-section{
+    height: 250px;
+    width: 55%;
+}
+
+.barcode-section .information-section p:nth-child(1){
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.barcode-section .information-section p:nth-child(2){
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+
+.barcode-section .information-section span p:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(43, 43, 43);
+    margin-bottom: 22px;
+}
+
+.barcode-section .information-section span p:nth-child(2){
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+    margin-top: -5px;
+}
+
+.barcode-section .information-section span p:nth-child(3){
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+    margin-top: 15px;
+}
+
+.barcode-section .section .scaner{
+    height: 250px;
+    width: 45%;
+}
+
+.barcode-section .section .scaner img{
+    height: 250px;
+    margin-left: 20%;
+}
+
+.barcode-section a{
+    text-decoration: none;
+    color: #00a884;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Video Section */
+
+.watsappweb-section .video-section{
+    height: 63vh;
+    width: 83%;
+    background-color: #d1d7db;
+    display: flex;
+    justify-content: center;
+    margin-left: 9%;
+}
+
+.watsappweb-section .video-section img{
+    height: 40vh;
+    width: 60%;
+    margin-top: 60px;
+}
+
+
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+  /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(169, 166, 166, 0.3); }
